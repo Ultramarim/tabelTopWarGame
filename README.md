@@ -1,59 +1,44 @@
-# TabelTopWarGame
+1.
+inico del projecto y cracion de componentes de inicio,footer.navbar,inicio de sesión y registro. Ademas de comfigurar app.routers con los componentes y intalar fontAwesome y boostrarp. Añadir autor al package.json.
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.7.
 
-## Development server
+2.
+Se ha creado dos nuvos componente de completado y error para cuando el usuario inicie sesión y cundo se equvoque la buscar, ajustado varios votones y e lementos para que el diseño sea parecido al desado y adaptarlo al usuario.
 
-To start a local development server, run:
+3.
+He creado 3 nuevos componentes para iniciar una partida, visualizar el historial de partidas jugadas y gestionar y terminar una partida, se le ha puesto su propia tipografia y
+darles el router link desde el inicio y el navbar.
 
-```bash
-ng serve
-```
+4.
+He modificado el inicio de sesion añadiendo text-box para que los usuarios puedan meter sus datos, ademas que añadi iconos para qeu sea mas claro cada text-box y dos botones 
+para que el usuaio recupere sus contraseña y otra para que cree una cuenta si no es usuario.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-## Code scaffolding
+5.
+He modificado el inicio de sesion y el registro con html y css ademas de añadir iconos con fotAwesome, ademas de decorarlos y darles estilos, 
+solo queda arreglar los botones de boostrap, cambiar los nombres del app.routes y darles la funcionalidad mas adelante.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+6.
+He modificado los botenes del login y del register y ajustado el navabar y darle color, y añadido varios elementos para que el register y el login se bea mejor.
 
-```bash
-ng generate component component-name
-```
+7.
+He echo pruebas para probar distintos fondos para el inicio y modificar los button del inicio para que se parezca a los de los bocetos, ademas de modificar los buttons
+del errror 404 y la pagina de cuando se registra un usuario.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+8.
+He modificado el componente de nueva partida y partida creada ademas de modificar el button con imagenes y un css para ajustarla.
 
-```bash
-ng generate --help
-```
+9.
+He terminado de prepara los comoponentes para ir añadiendo las funcionalidades de las paginas para cada uno de los componentes, y cambiado el footer para dejarlo lo mas acorde a los diseños le quedan añadir css y bustrap para dejarlas bien.
 
-## Building
 
-To build the project run:
+10.
+He probado funcionalidades para crear una partida, añadiendo las 
+funcionalidades para dar un nombre a cada jugador y el numero de 
+puntos del ejercito, ademas de preparar el perfil apra empezar a 
+trabajar en el.
 
-```bash
-ng build
-```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+11.
+He echo pruebas para ver como hacer una variable para la funcionalidad de mostrar los nombre y puntos de los jugares, ademas de prepara los demas  componentes para que el jugador 
+siga la partida y apunte lo puntuado.

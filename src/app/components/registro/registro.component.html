@@ -1,0 +1,47 @@
+
+
+
+<body>
+    
+
+
+    <div class="wrapper">
+    <h1>Registro</h1>
+    
+    <div class="continer-input">
+    <input type="text" placeholder="Nombre de Usuario">
+    <fa-icon [icon]="faUser"></fa-icon>
+    </div>
+
+    <div class="continer-input">
+        <input type="email" placeholder="Email">
+        <fa-icon [icon]="faEnvelope"></fa-icon>
+        </div>
+
+
+    <div class="continer-input">
+    <input type="password" placeholder="Contraseña">
+    <fa-icon [icon]="faKey"></fa-icon>
+    </div>
+
+    <div class="continer-input">
+        <input type="password" placeholder="Repetir Contraseña">
+        <fa-icon [icon]="faKey"></fa-icon>
+        </div>
+    
+    
+ 
+    <div class="container-button">
+        <button type="button" class="btn btn-success text-dark w-100 rounded-pill btn-lg" routerLinkActive="active" routerLink="/completed">Registrarse</button>
+    </div>
+    
+    
+    <div class="container-no-usuario">
+        <span>¿Ya tienes una cuenta?</span>
+        <div class="linea"></div>
+    </div>
+
+    <button type="button" class="btn btn-light text-dark w-100 rounded-pill btn-lg" routerLinkActive="active" routerLink="/inicio-de-sesion">Iniciar Sesión</button>
+    </div>
+    
+    </body>

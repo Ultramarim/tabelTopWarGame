@@ -1,0 +1,29 @@
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+<div ng-app="">
+  <h1>Nueva Partida</h1>
+ 
+  <h2>Tu: {{nombrejugadoruno}}</h2>
+  <h4>Nombre:</h4>
+  <input type="text" [(ngModel)]="nombrejugadoruno">
+</div>
+
+<h4>Faccion:</h4>
+<h4 class="d-flex justify-content-end">Mision Principal: </h4>
+<h4>Mision Secundaria:</h4>
+<h3>Puntos de Ejercito: {{PuntosEjercitoUno}}</h3>
+<h4>Puntos de ejercito:</h4>
+<input type="number" [(ngModel)]="PuntosEjercitoUno">
+
+<h2>Rival: {{nombrejugadordos}}</h2>
+<h4>Nombre:</h4>
+<input type="text" [(ngModel)]="nombrejugadordos">
+<h4>Faccion:</h4>
+<h4>Mision Secundaria:</h4>
+<h3>Puntos de Ejercito: {{PuntosEjercitoDos}}</h3>
+<h4>Puntos de ejercito:</h4>
+<input type="number" [(ngModel)]="PuntosEjercitoDos">
+
+<div class="d-flex justify-content-center ">
+    <button type="button" class="btn btn-primary btn-lg btn-principal" routerLinkActive="active" routerLink="/partida-creada">Planificar Partida</button>
+    </div>

@@ -1,6 +1,7 @@
 import { Component, NgModule } from '@angular/core';
 import { FormsModule, NgModel } from '@angular/forms';
 import { RouterLink, RouterLinkActive, RouterModule, Routes } from '@angular/router';
+import { PlayersService } from '../../services/players.service';
 
 @Component({
   selector: 'app-partida-creada',
@@ -10,19 +11,19 @@ import { RouterLink, RouterLinkActive, RouterModule, Routes } from '@angular/rou
 })
 
 export class PartidaCreadaComponent {
+  nombrejugadoruno: string = '';
+  nombrejugadordos: string = '';
   PuntosComandoUno: number = 0;
   PuntosVictoriaUno: number = 0;
   PuntosComandoDos: number = 0;
   PuntosVictoriaDos: number = 0;
+
+
+constructor(private playerService: PlayersService ) {}
+
+ngOnInit() {
+  this.nombrejugadoruno = this.playerService.getNombre();
+  this.nombrejugadordos = this.playerService.getNombreDos();
 }
 
-const routes: Routes = [
-  {path: '', component: PartidaCreadaComponent},
-  {path: 'partida-creada', component: PartidaCreadaComponent}
-];
-
-@NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
-})
-export class AppRoutingModule { }
+}

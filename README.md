@@ -42,3 +42,7 @@ trabajar en el.
 11.
 He echo pruebas para ver como hacer una variable para la funcionalidad de mostrar los nombre y puntos de los jugares, ademas de prepara los demas  componentes para que el jugador 
 siga la partida y apunte lo puntuado.
+
+12.
+He terminado la funcion para los nombres de los jugarodres, para que esto se muestren tanto en la partida creada como en el fin de la partida. Tabien he añadido un dropdown que le 
+que da darle funcionalidad para que cuado el usuario elija una opcion este se mestre y se guarde.

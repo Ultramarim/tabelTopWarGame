@@ -6,6 +6,7 @@
   <h2>Tu: {{nombrejugadoruno}}</h2>
   <h4>Nombre:</h4>
   <input type="text" [(ngModel)]="nombrejugadoruno">
+  <button (click)="savePlayers()">Guardar</button>
 </div>
 
 <h4>Faccion:</h4>
@@ -18,7 +19,21 @@
 <h2>Rival: {{nombrejugadordos}}</h2>
 <h4>Nombre:</h4>
 <input type="text" [(ngModel)]="nombrejugadordos">
+<button (click)="savePlayers()">Guardar</button>
 <h4>Faccion:</h4>
+<div class="btn-group me-3">
+	<div class="btn-group" ngbDropdown role="group" aria-label="Button group with nested dropdown">
+		<button type="button" class="btn btn-primary">Split me</button>
+		<button type="button" class="btn btn-primary dropdown-toggle-split" ngbDropdownToggle></button>
+		<div class="dropdown-menu" ngbDropdownMenu>
+			<button ngbDropdownItem>One</button>
+			<button ngbDropdownItem>Two</button>
+			<button ngbDropdownItem>Four!</button>
+		</div>
+	</div>
+</div>
+
+
 <h4>Mision Secundaria:</h4>
 <h3>Puntos de Ejercito: {{PuntosEjercitoDos}}</h3>
 <h4>Puntos de ejercito:</h4>

@@ -9,7 +9,27 @@
   <button (click)="savePlayers()">Guardar</button>
 </div>
 
-<h4>Faccion:</h4>
+<h4>Faccion: {{ selectedOption }}</h4>
+<div ngbDropdown class="d-inline-block">
+	<button class="btn btn-primary" id="dropdownMenuButton" ngbDropdownToggle>
+	  {{ selectedOption }}
+	</button>
+	<div ngbDropdownMenu aria-labelledby="dropdownMenuButton">
+	  <button class="dropdown-item" (click)="onSelect('Marines Espaciales')">Marines Espaciales</button>
+	  <button class="dropdown-item" (click)="onSelect('Guardia Imperial')">Guardia Imperial</button>
+	  <button class="dropdown-item" (click)="onSelect('Aeldari')">Aeldari</button>
+	  <button class="dropdown-item" (click)="onSelect('Orkos')">Orkos</button>
+	  <button class="dropdown-item" (click)="onSelect('Adepta Sororitas')">Adepta Sororitas</button>
+			<button class="dropdown-item" (click)="onSelect('Adeptus Mechanicus')">Adeptus Mechanicus</button>
+			<button class="dropdown-item" (click)="onSelect('adeptus custodes')">adeptus custodes</button>
+			<button class="dropdown-item" (click)="onSelect('Tau')">Tau</button>
+			<button class="dropdown-item" (click)="onSelect('Ligas de los Votann')">Ligas de los Votann</button>
+			<button class="dropdown-item" (click)="onSelect('Drukari')">Drukari</button>
+			<button class="dropdown-item" (click)="onSelect('Tiranidos')">Tiranidos</button>
+			<button class="dropdown-item" (click)="onSelect('Furzas del Caos')">Fuerzas del Caos</button>
+	</div>
+  </div>
+  
 <h4 class="d-flex justify-content-end">Mision Principal: </h4>
 <h4>Mision Secundaria:</h4>
 <h3>Puntos de Ejercito: {{PuntosEjercitoUno}}</h3>
@@ -20,18 +40,27 @@
 <h4>Nombre:</h4>
 <input type="text" [(ngModel)]="nombrejugadordos">
 <button (click)="savePlayers()">Guardar</button>
-<h4>Faccion:</h4>
-<div class="btn-group me-3">
-	<div class="btn-group" ngbDropdown role="group" aria-label="Button group with nested dropdown">
-		<button type="button" class="btn btn-primary">Split me</button>
-		<button type="button" class="btn btn-primary dropdown-toggle-split" ngbDropdownToggle></button>
-		<div class="dropdown-menu" ngbDropdownMenu>
-			<button ngbDropdownItem>One</button>
-			<button ngbDropdownItem>Two</button>
-			<button ngbDropdownItem>Four!</button>
-		</div>
+<h4>Faccion: {{ selectedOption2 }}</h4>
+<div ngbDropdown class="d-inline-block">
+	<button class="btn btn-primary" id="dropdownMenuButton" ngbDropdownToggle>
+	  {{ selectedOption2 }}
+	</button>
+	<div ngbDropdownMenu aria-labelledby="dropdownMenuButton">
+	  <button class="dropdown-item" (click)="onSelect2('Marines Espaciales')">Marines Espaciales</button>
+	  <button class="dropdown-item" (click)="onSelect2('Guardia Imperial')">Guardia Imperial</button>
+	  <button class="dropdown-item" (click)="onSelect2('Aeldari')">Aeldari</button>
+	  <button class="dropdown-item" (click)="onSelect2('Orkos')">Orkos</button>
+	  <button class="dropdown-item" (click)="onSelect2('Adepta Sororitas')">Adepta Sororitas</button>
+			<button class="dropdown-item" (click)="onSelect2('Adeptus Mechanicus')">Adeptus Mechanicus</button>
+			<button class="dropdown-item" (click)="onSelect2('adeptus custodes')">adeptus custodes</button>
+			<button class="dropdown-item" (click)="onSelect2('Tau')">Tau</button>
+			<button class="dropdown-item" (click)="onSelect2('Ligas de los Votann')">Ligas de los Votann</button>
+			<button class="dropdown-item" (click)="onSelect2('Drukari')">Drukari</button>
+			<button class="dropdown-item" (click)="onSelect2('Tiranidos')">Tiranidos</button>
+			<button class="dropdown-item" (click)="onSelect2('Furzas del Caos')">Fuerzas del Caos</button>
 	</div>
-</div>
+  </div>
+  
 
 
 <h4>Mision Secundaria:</h4>

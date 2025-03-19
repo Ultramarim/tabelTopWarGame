@@ -1,6 +1,6 @@
 {
   "name": "tabel-top-war-game",
-  "author":{
+  "author": {
     "name": "Alejandro Labrador"
   },
   "version": "0.0.1",
@@ -27,6 +27,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.7.1",
     "@ng-bootstrap/ng-bootstrap": "^18.0.0",
     "@popperjs/core": "^2.11.8",
+    "boostrap": "^2.0.0",
     "bootstrap": "^5.3.3",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",

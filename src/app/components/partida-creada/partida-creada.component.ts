@@ -17,13 +17,27 @@ export class PartidaCreadaComponent {
   PuntosVictoriaUno: number = 0;
   PuntosComandoDos: number = 0;
   PuntosVictoriaDos: number = 0;
+ngModel: any;
 
 
 constructor(private playerService: PlayersService ) {}
+
+setPuntos(puntos: number): void {
+  this.PuntosVictoriaUno = puntos;
+  this.playerService.setPuntos(puntos);
+}
+
+setPuntos2(puntos2: number): void {
+  this.PuntosVictoriaDos = puntos2;
+  this.playerService.setPuntos2(puntos2);
+}
+
 
 ngOnInit() {
   this.nombrejugadoruno = this.playerService.getNombre();
   this.nombrejugadordos = this.playerService.getNombreDos();
 }
+
+
 
 }

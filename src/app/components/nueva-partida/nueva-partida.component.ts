@@ -18,8 +18,21 @@ PuntosEjercitoUno: number = 0;
 PuntosEjercitoDos: number = 0;
 
 constructor(private playerService: PlayersService) { }
+selectedOption: string = 'Selecciona una opción';
+selectedOption2: string = 'Selecciona una opción';
+
+onSelect(option: string): void {
+  this.selectedOption = option;
+  this.playerService.setOption(option);
+}
+
+onSelect2(option2: string): void {
+  this.selectedOption2 = option2;
+  this.playerService.setOption2(option2);
+}
 
 savePlayers() {
 this.playerService.setNombre(this.nombrejugadoruno, this.nombrejugadordos);
 }
+
 }

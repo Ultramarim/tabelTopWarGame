@@ -45,4 +45,10 @@ siga la partida y apunte lo puntuado.
 
 12.
 He terminado la funcion para los nombres de los jugarodres, para que esto se muestren tanto en la partida creada como en el fin de la partida. Tabien he añadido un dropdown que le 
-que da darle funcionalidad para que cuado el usuario elija una opcion este se mestre y se guarde.
+que da darle funcionalidad para que cuado el usuario elija una opcion este se muestre y se guarde.
+
+13.
+He estado haciendo pruebas para que se guarde la Faccion que haya eligido un jugardor para  que así al final de la partida se muestre el ganador.
+
+14.
+He completado la funcionalidad de las paridas para que el usuario pueda poner un nombre propio y para el rival, ademas de mostrar los nombres de cada jugador y puntos de victoria, ademas de mostrar el gandor o si es un empate.

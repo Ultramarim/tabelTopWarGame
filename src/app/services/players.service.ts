@@ -22,5 +22,47 @@ export class PlayersService {
    return this.nombrejugadordos;
    
  }
+
  
+ private selectedOption: string = '';
+ private selectedOption2: string = '';
+
+ setOption(option: string): void {
+   this.selectedOption = option;
+ }
+
+ setOption2(option2: string): void {
+  this.selectedOption2 = option2;
+}
+
+ getOption(): string {
+   return this.selectedOption;
+ }
+
+ getOption2(): string {
+  return this.selectedOption2;
+}
+ 
+
+PuntosVictoriaUno: number = 0;
+PuntosVictoriaDos: number = 0;
+
+
+setPuntos(Puntos: number): void {
+  this.PuntosVictoriaUno = Puntos;
+}
+
+setPuntos2(Puntos2: number): void {
+  this.PuntosVictoriaDos = Puntos2;
+}
+
+getPuntosUno() {
+  return this.PuntosVictoriaUno;
+  
+}
+
+getPuntosDos() {
+  return this.PuntosVictoriaDos;
+  
+}
 }

@@ -1,5 +1,10 @@
 <h1>Nueva Partida</h1>
-<h2>Tu: {{nombrejugadoruno}}</h2>
+<h2 class="d-flex justify-content-end" >Ronda: {{PuntosRonda}}</h2> 
+<div class="conainer d-flex justify-content-end">
+    <input  type="number" [(ngModel)]="PuntosRonda" >
+</div>
+
+<h2 >Tu: {{nombrejugadoruno}}</h2>
 <h4>Puntos de Comando: {{PuntosComandoUno}}</h4>
 <input type="number" [(ngModel)]="PuntosComandoUno">
 <h4>Puntos de Victoria: {{PuntosVictoriaUno}}</h4>

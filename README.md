@@ -52,3 +52,6 @@ He estado haciendo pruebas para que se guarde la Faccion que haya eligido un jug
 
 14.
 He completado la funcionalidad de las paridas para que el usuario pueda poner un nombre propio y para el rival, ademas de mostrar los nombres de cada jugador y puntos de victoria, ademas de mostrar el gandor o si es un empate.
+
+15.
+He creado el componente para el usuario cree su propio perfil con nombre y foto. Añadido rondas a la parte de partida creada.

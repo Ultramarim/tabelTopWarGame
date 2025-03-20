@@ -17,6 +17,8 @@ export class PartidaCreadaComponent {
   PuntosVictoriaUno: number = 0;
   PuntosComandoDos: number = 0;
   PuntosVictoriaDos: number = 0;
+  PuntosRonda: number = 0;
+
 ngModel: any;
 
 

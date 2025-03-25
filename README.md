@@ -55,3 +55,6 @@ He completado la funcionalidad de las paridas para que el usuario pueda poner un
 
 15.
 He creado el componente para el usuario cree su propio perfil con nombre y foto. Añadido rondas a la parte de partida creada.
+
+16.
+He hecho pruebas para que el usuario suba una imagen y esta la mustre como su foto de perfil personal.

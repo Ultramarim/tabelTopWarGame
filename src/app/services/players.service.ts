@@ -65,4 +65,33 @@ getPuntosDos() {
   return this.PuntosVictoriaDos;
   
 }
+
+private imagenUrl: string | ArrayBuffer | null = '';
+
+  setImagen(url: string | ArrayBuffer | null): void {
+    this.imagenUrl = url;
+  }
+
+  getImagen(): string | ArrayBuffer | null {
+    return this.imagenUrl;
+  }
+
+
+  protected nombre: string = '';
+
+
+ setNombrePerfil(nombre: string) {
+   this.nombrejugadoruno = nombre;
+
+ }
+
+ getNombrePerfil() {
+   return this.nombrejugadoruno;
+   
+ }
+
+
 }
+
+
+

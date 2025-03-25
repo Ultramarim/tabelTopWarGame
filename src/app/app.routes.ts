@@ -9,6 +9,7 @@ import { NuevaPartidaComponent } from './components/nueva-partida/nueva-partida.
 import { PerfilComponent } from './components/perfil/perfil.component';
 import { PartidaCreadaComponent } from './components/partida-creada/partida-creada.component';
 import { FinPartidaComponent } from './components/fin-partida/fin-partida.component';
+import { CrearPerfilComponent } from './components/crear-perfil/crear-perfil.component';
 
 export const routes: Routes = [
     {
@@ -23,6 +24,10 @@ export const routes: Routes = [
     {
         path: 'register',
         component: RegistroComponent
+    },
+    {
+        path: 'crear-perfil',
+        component: CrearPerfilComponent
     },
     {
         path: 'login',

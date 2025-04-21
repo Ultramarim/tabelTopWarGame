@@ -8,6 +8,8 @@ export class PlayersService {
  protected nombrejugadoruno: string = '';
  protected nombrejugadordos: string = '';
 
+ 
+
  setNombre(nombre: string, nombre2: string) {
    this.nombrejugadoruno = nombre;
    this.nombrejugadordos = nombre2;
@@ -91,7 +93,12 @@ private imagenUrl: string | ArrayBuffer | null = '';
  }
 
 
+ 
+
 }
+
+
+
 
 
 

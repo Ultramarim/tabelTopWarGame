@@ -1,5 +1,5 @@
 <div class="continer">
-<h2>Nombre de Usuario:</h2>
+<h2>Nombre de Usuario: {{nombre}}</h2>
 <input type="text" [(ngModel)]="nombre">
   <button (click)="saveProfile()">Guardar</button>
 </div>
@@ -8,6 +8,6 @@
 <h3>Foto de Perfil:</h3>
 <input type="file" (change)="onFileSelected($event)" accept="image/*">
 <br>
-<img *ngIf="imagenUrl" [src]="imagenUrl" alt="Imagen subida" width="300">
+<img *ngIf="imagenUrl" [src]="imagenUrl" alt="Imagen subida" width="300"> <!-- arreglar para que se vea la imagen-->
 </div>
 <button type="button" class="btn btn-success btn-lg" routerLinkActive="active" routerLink="completed">Crear Perfil</button>

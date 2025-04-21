@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { PlayersService } from './../../services/players.service';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-historial',
@@ -6,6 +7,15 @@ import { Component } from '@angular/core';
   templateUrl: './historial.component.html',
   styleUrl: './historial.component.css'
 })
-export class HistorialComponent {
+export class HistorialComponent  {
+
+  resultados: number[] = [];
+
+  constructor(private PlayersService: PlayersService) {}
+
+
+  
+  
+
 
 }

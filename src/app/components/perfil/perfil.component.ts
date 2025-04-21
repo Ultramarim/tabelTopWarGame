@@ -9,6 +9,14 @@ import { PlayersService } from '../../services/players.service';
 })
 export class PerfilComponent  {
 
+  protected nombre: string = '';
+
+  constructor(private playerService: PlayersService) { }
+
+  saveProfile() {
+    this.playerService.setNombrePerfil(this.nombre);
+    }
+
 
   imagenUrl: string | null = null;  
 
@@ -28,4 +36,10 @@ export class PerfilComponent  {
     }
   }
    
+
+  ngOnInit() {
+    this.nombre = this.playerService.getNombre();
+  }
+  
+
 }

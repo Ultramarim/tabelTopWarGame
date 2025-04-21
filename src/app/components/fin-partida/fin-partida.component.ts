@@ -33,14 +33,15 @@ this.calcularGanador();
 
 calcularGanador(): void {
   if (this.PuntosVictoriaUno > this.PuntosVictoriaDos) {
-    this.ganador = `El ganador es: ${this.nombrejugadoruno}`;
+    this.ganador = `¡El ganador es!: ${this.nombrejugadoruno}`;
   } else if (this.PuntosVictoriaDos > this.PuntosVictoriaUno) {
-    this.ganador = `El ganador es: ${this.nombrejugadordos}`;
+    this.ganador = `¡El ganador es!: ${this.nombrejugadordos}`;
   } else {
-    this.ganador = '¡Es un empate!';
+    this.ganador = '¡Empate!';
   }
 }
 
+resultado: string = ''; 
 
 
 

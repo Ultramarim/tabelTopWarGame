@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Esto asegura que el body ocupe al menos el 100% del alto de la ventana */
+  }
+  
+  .container {
+    flex: 1; /* Esto hace que el contenedor principal crezca para ocupar el espacio restante */
+  }
+  
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f8f9fa; /* Puedes añadir un color de fondo si quieres */
+  z-index: 1000; /* Asegura que esté por encima de otros elementos si es necesario */
+}

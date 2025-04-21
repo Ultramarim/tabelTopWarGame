@@ -58,3 +58,9 @@ He creado el componente para el usuario cree su propio perfil con nombre y foto.
 
 16.
 He hecho pruebas para que el usuario suba una imagen y esta la mustre como su foto de perfil personal.
+
+17.
+He echo un componente para que el usuario para que este cree su propio perfil personal y pueda ponerse un nobre y una foto de perfil.
+
+18.
+He realizado pruebas para ver como quedan para el proyecto y ahora voy asegir con lo que mejor me parezca y meojor me concezca, como poner unas imagenes de fondo y que el usuario pueda subir una foto para su perfil personal.

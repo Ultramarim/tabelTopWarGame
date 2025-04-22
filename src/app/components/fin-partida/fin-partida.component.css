@@ -1,0 +1,8 @@
+body {
+    background-image: url('./../../../../public/images/victoria.jpg'); 
+    background-size: cover;       
+    background-repeat: no-repeat; 
+    background-position: center;  
+    height: 90vh;                
+    margin: 0;     
+}

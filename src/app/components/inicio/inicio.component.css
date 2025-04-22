@@ -1,8 +1,8 @@
 body {
-    background-image: url('./../../../../public/images/HD-wallpaper-warhammer-warhammer-40k.jpg'); /* Cambia esta ruta por la tuya */
-    background-size: cover;       /* La imagen se ajusta al tamaño del viewport */
-    background-repeat: no-repeat; /* Evita que se repita */
-    background-position: center;  /* Centra la imagen */
-    height: 100vh;                /* Altura igual al alto de la pantalla */
-    margin: 0;                    /* Quita márgenes por defecto */
+    background-image: url('./../../../../public/images/HD-wallpaper-warhammer-warhammer-40k.jpg'); 
+    background-size: cover;      
+    background-repeat: no-repeat; 
+    background-position: center;  
+    height: 90vh;                
+    margin: 0;                    
   }

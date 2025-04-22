@@ -1,3 +1,12 @@
 h1 {
     font-family: 'Jacquard 24';
 }
+
+body {
+    background-image: url('./../../../../public/images/historial.jpg'); 
+    background-size: cover;       
+    background-repeat: no-repeat; 
+    background-position: center;  
+    height: 90vh;                
+    margin: 0;     
+}

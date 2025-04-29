@@ -1,0 +1,8 @@
+body {
+    background-image: url('./../../../../public/images/autismo.png');        
+    background-size: auto 60%; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: 80vh;                
+    margin: 0;     
+}

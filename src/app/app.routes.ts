@@ -34,7 +34,7 @@ export const routes: Routes = [
         component: InicioDeSesionComponent
     },
     {
-        path: 'completed',
+        path: 'completado',
         component: CompletadoComponent
     },
     {

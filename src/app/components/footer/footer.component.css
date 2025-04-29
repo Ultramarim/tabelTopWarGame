@@ -9,10 +9,5 @@ body {
   }
   
 footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: #f8f9fa; /* Puedes añadir un color de fondo si quieres */
-  z-index: 1000; /* Asegura que esté por encima de otros elementos si es necesario */
+
 }

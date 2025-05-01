@@ -1,13 +1,13 @@
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh; /* Esto asegura que el body ocupe al menos el 100% del alto de la ventana */
-  }
-  
-  .container {
-    flex: 1; /* Esto hace que el contenedor principal crezca para ocupar el espacio restante */
-  }
-  
-footer {
-
+html, body {
+  height: 100%;
+  margin: 0;
 }
+
+body {
+background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+

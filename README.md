@@ -64,3 +64,6 @@ He echo un componente para que el usuario para que este cree su propio perfil pe
 
 18.
 He realizado pruebas para ver como quedan para el proyecto y ahora voy asegir con lo que mejor me parezca y meojor me concezca, como poner unas imagenes de fondo y que el usuario pueda subir una foto para su perfil personal.
+
+19.
+He arreglado el footer y he estado preparando el backend para la api, luego prepare el inicio de sesion y el selector de imagenes.

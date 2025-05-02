@@ -67,3 +67,6 @@ He realizado pruebas para ver como quedan para el proyecto y ahora voy asegir co
 
 19.
 He arreglado el footer y he estado preparando el backend para la api, luego prepare el inicio de sesion y el selector de imagenes.
+
+20.
+He borrado los conponentes de perfil, inicio de sesion y registro, ademas de retocar los componentes para que se adapten a los cambios.

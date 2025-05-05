@@ -1,12 +1,11 @@
 import { Routes } from '@angular/router';
 import { InicioComponent } from './components/inicio/inicio.component';
 import { ErrorComponent } from './components/error/error.component';
-import { CompletadoComponent } from './components/completado/completado.component';
 import { HistorialComponent } from './components/historial/historial.component';
 import { NuevaPartidaComponent } from './components/nueva-partida/nueva-partida.component';
-
 import { PartidaCreadaComponent } from './components/partida-creada/partida-creada.component';
 import { FinPartidaComponent } from './components/fin-partida/fin-partida.component';
+import { CrearMisionComponent } from './components/crear-mision/crear-mision.component';
 
 
 export const routes: Routes = [
@@ -20,8 +19,8 @@ export const routes: Routes = [
         component: InicioComponent
     },
     {
-        path: 'completado',
-        component: CompletadoComponent
+        path: 'crear-mision',
+        component: CrearMisionComponent
     },
     {
         path: 'historial',

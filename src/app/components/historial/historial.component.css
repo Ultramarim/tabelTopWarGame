@@ -1,7 +1,8 @@
 
 h1 {
     font-family: 'Jacquard 24';
-    color: white;
+    color: black;
+    background-color: white;
 }
 
 body {
@@ -12,3 +13,10 @@ body {
     height: 78.4vh;                
     margin: 0;     
 }
+
+.resultado-individual {
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }

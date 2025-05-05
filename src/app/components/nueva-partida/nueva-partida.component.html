@@ -4,7 +4,7 @@
   <h1>Nueva Partida</h1>
  
   <h2>Tu: {{nombrejugadoruno}}</h2>
-  <h4>Nombre:</h4>
+  
   <input type="text" [(ngModel)]="nombrejugadoruno">
   <button (click)="savePlayers()">Guardar</button>
 </div>
@@ -31,13 +31,13 @@
   </div>
   
 <h4 class="d-flex justify-content-end">Mision Principal: </h4>
-<h4>Mision Secundaria:</h4>
+
 <h3>Puntos de Ejercito: {{PuntosEjercitoUno}}</h3>
 <h4>Puntos de ejercito:</h4>
 <input type="number" [(ngModel)]="PuntosEjercitoUno">
 
 <h2>Rival: {{nombrejugadordos}}</h2>
-<h4>Nombre:</h4>
+
 <input type="text" [(ngModel)]="nombrejugadordos">
 <button (click)="savePlayers()">Guardar</button>
 <h4>Faccion: {{ selectedOption2 }}</h4>

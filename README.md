@@ -70,3 +70,6 @@ He arreglado el footer y he estado preparando el backend para la api, luego prep
 
 20.
 He borrado los conponentes de perfil, inicio de sesion y registro, ademas de retocar los componentes para que se adapten a los cambios.
+
+21.
+ Trabaje en backend y front para cerrar errores y solo me queda dejar bonita la pagina y arreglar el historial de aprtidas.

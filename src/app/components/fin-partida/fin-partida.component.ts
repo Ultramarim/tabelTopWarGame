@@ -43,6 +43,4 @@ calcularGanador(): void {
 
 resultado: string = ''; 
 
-
-
 }

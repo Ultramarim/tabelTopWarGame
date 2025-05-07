@@ -1,1 +1,17 @@
-<p>mostrar-mision works!</p>
+
+@defer (when this.misiones.length == 0) {
+
+   @for(mision of this.misiones; track mision._id){
+        <div class="card m-2" style="width: 18rem;">
+             <div class="card-body">
+                <h5 class="card-title">Mision: {{mision.title}}</h5>
+                <p class="card-text">Descripcion: {{mision.description}}</p>
+                <p class="card-text">Dificultad: {{mision.points}}</p>
+                <p class="card-text">Dificultad: {{mision.__v}}</p>
+             
+               
+             </div>
+        </div>
+   }
+   
+}

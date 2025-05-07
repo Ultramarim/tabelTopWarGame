@@ -1,5 +1,21 @@
 <body>
 <h1>Nueva Partida</h1>
+<!-- Example single danger button -->
+<div class="btn-group">
+    <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+      Danger
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Action</a></li>
+      <li><a class="dropdown-item" href="#">Another action</a></li>
+      <li><a class="dropdown-item" href="#">Something else here</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="#">Separated link</a></li>
+    </ul>
+  </div>
+<h4 class="d-flex">Mision Principal: </h4>
+
+
 <h4>Mision Secundaria:</h4>
 <h2 class="d-flex justify-content-end" >Ronda: {{PuntosRonda}}</h2> 
 <div class="conainer d-flex justify-content-end">
@@ -13,11 +29,14 @@
 <input type="number" [(ngModel)]="PuntosVictoriaUno" (click)="setPuntos(PuntosVictoriaUno)">
 
 
+
 <h2>Rival: {{nombrejugadordos}}</h2>
 <h4>Puntos de Comando: {{PuntosComandoDos}}</h4>
 <input type="number" [(ngModel)]="PuntosComandoDos">
 <h4>Puntos de Victoria: {{PuntosVictoriaDos}}</h4>
 <input type="number" [(ngModel)]="PuntosVictoriaDos" (click)="setPuntos2(PuntosVictoriaDos)">
+
+
 
 <div class="d-flex justify-content-center ">
     <button type="button" class="btn btn-primary btn-lg btn-principal" routerLinkActive="active" routerLink="/fin-de-partida">Terminar Partida</button>

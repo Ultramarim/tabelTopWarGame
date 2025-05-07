@@ -9,13 +9,39 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HistorialComponent  {
 
-  resultados: number[] = [];
+  nombrejugadoruno: string = '';
+  nombrejugadordos: string = '';
+  selectedOption: string = '';
+  selectedOption2: string = '';
+  PuntosVictoriaUno: number = 0;
+  PuntosVictoriaDos: number = 0;
+  ganador: string = '';
 
-  constructor(private PlayersService: PlayersService) {}
+constructor(private playerService: PlayersService ) {}
 
+ngOnInit() {
+  this.nombrejugadoruno = this.playerService.getNombre();
+  this.nombrejugadordos = this.playerService.getNombreDos();
+  this.selectedOption = this.playerService.getOption();
+this.selectedOption2 = this.playerService.getOption2();
+this.PuntosVictoriaUno = this.playerService.getPuntosUno();
+this.PuntosVictoriaDos = this.playerService.getPuntosDos();
+
+
+this.calcularGanador();
+}
+
+calcularGanador(): void {
+  if (this.PuntosVictoriaUno > this.PuntosVictoriaDos) {
+    this.ganador = `¡El ganador es!: ${this.nombrejugadoruno}`;
+  } else if (this.PuntosVictoriaDos > this.PuntosVictoriaUno) {
+    this.ganador = `¡El ganador es!: ${this.nombrejugadordos}`;
+  } else {
+    this.ganador = '¡Empate!';
+  }
+}
+
+resultado: string = ''; 
 
   
-  
-
-
 }

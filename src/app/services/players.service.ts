@@ -92,6 +92,8 @@ private imagenUrl: string | ArrayBuffer | null = '';
    
  }
 
+ 
+
 
  
 

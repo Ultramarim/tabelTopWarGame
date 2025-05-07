@@ -5,7 +5,6 @@ import { HistorialComponent } from './components/historial/historial.component';
 import { NuevaPartidaComponent } from './components/nueva-partida/nueva-partida.component';
 import { PartidaCreadaComponent } from './components/partida-creada/partida-creada.component';
 import { FinPartidaComponent } from './components/fin-partida/fin-partida.component';
-import { CrearMisionComponent } from './components/crear-mision/crear-mision.component';
 import { MostrarMisionComponent } from './components/mostrar-mision/mostrar-mision.component';
 
 
@@ -18,10 +17,6 @@ export const routes: Routes = [
     {
         path: 'inicio',
         component: InicioComponent
-    },
-    {
-        path: 'crear-mision',
-        component: CrearMisionComponent
     },
     {
         path: 'mostrar-mision',

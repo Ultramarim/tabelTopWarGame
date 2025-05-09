@@ -18,7 +18,9 @@ export class PartidaCreadaComponent {
   PuntosComandoDos: number = 0;
   PuntosVictoriaDos: number = 0;
   PuntosRonda: number = 0;
-
+  misionPrincipal: string = '';
+  misionSecundaria: string = '';
+    misionSecundaria2: string = '';
 ngModel: any;
 
 

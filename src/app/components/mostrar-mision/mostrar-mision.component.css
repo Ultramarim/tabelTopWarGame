@@ -1,0 +1,8 @@
+body {
+    background-image: url('./../../../../public/images/AquilaBlack.jpg');
+    background-size: cover;      
+    background-repeat: no-repeat; 
+    background-position: center;  
+    height: 78.4vh;                
+    margin: 0;                    
+  }

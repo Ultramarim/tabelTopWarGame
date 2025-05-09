@@ -1,24 +1,15 @@
 <body>
 <h1>Nueva Partida</h1>
-<!-- Example single danger button -->
-<div class="btn-group">
-    <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-      Danger
-    </button>
-    <ul class="dropdown-menu">
-      <li><a class="dropdown-item" href="#">Action</a></li>
-      <li><a class="dropdown-item" href="#">Another action</a></li>
-      <li><a class="dropdown-item" href="#">Something else here</a></li>
-      <li><hr class="dropdown-divider"></li>
-      <li><a class="dropdown-item" href="#">Separated link</a></li>
-    </ul>
-  </div>
-<h4 class="d-flex">Mision Principal: </h4>
+
+<h4 class="d-flex">Mision Principal: {{misionPrincipal}}</h4>
+<input type="text" [(ngModel)]="misionPrincipal">
 
 
-<h4>Mision Secundaria:</h4>
-<h2 class="d-flex justify-content-end" >Ronda: {{PuntosRonda}}</h2> 
-<div class="conainer d-flex justify-content-end">
+<h4>Mision Secundaria: {{misionSecundaria}}</h4>
+<input type="text" [(ngModel)]="misionSecundaria">
+
+<h2 class="" >Ronda: {{PuntosRonda}}</h2> 
+<div class="conainer ">
     <input  type="number" [(ngModel)]="PuntosRonda" >
 </div>
 
@@ -29,7 +20,8 @@
 <input type="number" [(ngModel)]="PuntosVictoriaUno" (click)="setPuntos(PuntosVictoriaUno)">
 
 
-
+<h4>Mision Secundaria: {{misionSecundaria2}}</h4>
+<input type="text" [(ngModel)]="misionSecundaria2">
 <h2>Rival: {{nombrejugadordos}}</h2>
 <h4>Puntos de Comando: {{PuntosComandoDos}}</h4>
 <input type="number" [(ngModel)]="PuntosComandoDos">

@@ -33,9 +33,9 @@ this.calcularGanador();
 
 calcularGanador(): void {
   if (this.PuntosVictoriaUno > this.PuntosVictoriaDos) {
-    this.ganador = `¡El ganador es!: ${this.nombrejugadoruno}`;
+    this.ganador = `¡El ganador es!: ${this.nombrejugadoruno} con la faccion:  ${this.selectedOption}`;
   } else if (this.PuntosVictoriaDos > this.PuntosVictoriaUno) {
-    this.ganador = `¡El ganador es!: ${this.nombrejugadordos}`;
+    this.ganador = `¡El ganador es!: ${this.nombrejugadordos} con la faccion:  ${this.selectedOption2}`;
   } else {
     this.ganador = '¡Empate!';
   }
